@@ -40,16 +40,16 @@ MATLAB code to calibrate the parameters of a [PhysiCell](http://physicell.org/) 
 
 ## Expected folder layout
 
-The code uses relative paths and assumes the following layout, where the MATLAB scripts are run from the repository folder:
+The code uses relative paths and assumes the following layout, where the MATLAB scripts are run from the Fitt_param_from_exp folder:
 
 ```
-parent_folder/
+repository/
 ├── PhysiCell-master/
 │   ├── BashScripting/
 │   │   └── OPTphysicell.sh      # copy it from this repo's BashScripting/ folder
 │   ├── config/                  # initial cell CSVs are written here
 │   └── Results/                 # simulation outputs (OPT1, OPT2, ...)
-└── this_repository/
+└── Fitt_param_from_exp/
     ├── MAIN_PhysiCell.m
     ├── ...
     └── EXP_RESULTS/
